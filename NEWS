@@ -5,11 +5,6 @@ Changes in version 0.17
   environment variables.
 - Adjusted SHA256 usage for new bglibs API.
 -------------------------------------------------------------------------------
-Changes in version 0.16
-
-- Added a concurrency limit to srcmdd-pt.run, to prevent local DoS
-  attacks.
--------------------------------------------------------------------------------
 Changes in version 0.14
 
 - Modified srcmdd to set an alarm and kill the process.
