@@ -1,0 +1,27 @@
+-------------------------------------------------------------------------------
+Changes in version 0.17
+
+- Added hooks to read previously hard-coded paths from $SRCMD_*
+  environment variables.
+- Adjusted SHA256 usage for new bglibs API.
+-------------------------------------------------------------------------------
+Changes in version 0.16
+
+- Added a concurrency limit to srcmdd-pt.run, to prevent local DoS
+  attacks.
+-------------------------------------------------------------------------------
+Changes in version 0.14
+
+- Modified srcmdd to set an alarm and kill the process.
+- Added packet type validation in multiplex.c
+-------------------------------------------------------------------------------
+Changes in version 0.11
+
+- Modified srcmdd to output input/output packet count/packet
+  bytes/plaintext bytes statistics on exit.
+-------------------------------------------------------------------------------
+Changes in version 0.10
+
+- Modified srcmdd to report if the command was killed with a signal.
+- Modified srcmdd to log the authenticated username.
+-------------------------------------------------------------------------------

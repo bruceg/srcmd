@@ -1,0 +1,23 @@
+Protocol:
+
+- Add a version stamp at startup
+
+- Packet numbering:
+  - Fix constant 0 packet numbering in packet.c
+  - Modify the spec to allow non-zero starting packet numbers
+  - Modify srcmd to initialize the outgoing packet number to a random
+    number at startup.
+
+- Modify the daemon to support multiple authorized keys.
+
+- Fix "PIPE" handling (ie "yes" command when remote closes).
+
+- Use cli library in server (?)
+
+- Check permissions of ~user .srcmd and authorized_key
+
+- Modify the daemon to handle user-specified command handlers:
+  Instead of requiring the executing command on the command line:
+  - If command line is set, use it to execute given command
+  - Else if ~user/.srcmd/shell is executable, execute it with the command
+  - Else, use /bin/sh -c

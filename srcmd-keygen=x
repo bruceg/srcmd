@@ -1,0 +1,6 @@
+srcmd.a
+-lbg-base64
+-lbg-cli
+-lbg-msg
+-lbg-iobuf
+-lbg-str

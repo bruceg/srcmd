@@ -1,0 +1,8 @@
+srcmd.a
+rijndael/rijndael.a
+-lbg-base64
+-lbg-cli
+-lbg-msg
+-lbg-iobuf
+-lbg-str
+-lbg-crypto
